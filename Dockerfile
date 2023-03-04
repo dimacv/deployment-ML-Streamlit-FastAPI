@@ -5,11 +5,7 @@ FROM python:3.9
 WORKDIR /app
 
 # скопируем необходимые для работы файлы
-COPY requirements.txt requirements.txt
-COPY app.py app.py
-COPY streamlit.py streamlit.py
-COPY cloudpickle_for_deployment.pkl cloudpickle_for_deployment.pkl
-COPY run.sh run.sh
+COPY . .
 
 # установим нужные пакеты python
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
