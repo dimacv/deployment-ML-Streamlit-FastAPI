@@ -1,4 +1,4 @@
-# Deploying a machine learning model (complex pipeline) using Streamlit as a frontend and FastAPI as a backend.
+# Deploying a machine learning model (complex scikit-learn pipeline) using Streamlit as a frontend and FastAPI as a backend.
 ## In this case, both FastAPI and Streamlit are wrapped in one docker container. However, despite this, the port 8000 for accessing FastAPI is open for use and additional load can be created on it from any other applications besides Streamlit.
   
 ## Docker build:
