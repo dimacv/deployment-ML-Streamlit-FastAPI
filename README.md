@@ -1,5 +1,5 @@
 # Deploying a machine learning model (complex scikit-learn pipeline) using Streamlit as a frontend and FastAPI as a backend.
-## In this case, both FastAPI and Streamlit are wrapped in one docker container. However, despite this, the port 8000 for accessing FastAPI is open for use and additional load can be created on it from any other applications besides Streamlit.
+## In this case, both FastAPI and Streamlit are wrapped in one docker container. However, despite this, the port 8000 for accessing FastAPI is open for use and additional load can be created on it from any other applications besides Streamlit. Deploying FastAPI and Streamlit in different containers is represented by the code here - https://github.com/dimacv/deployment-ML-streamlit and https://github.com/dimacv/deployment-ML-fastapi . And here is a deployment with Flask and h2o - https://github.com/dimacv/deployment-ML-api_flask_h2o
   
 ## Docker build:
 
